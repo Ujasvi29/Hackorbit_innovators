@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Health Journal – AyuCare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📝 AyuCare – Personal Health Journal</h2>
+    
+    <form id="journalForm">
+      <label>Today's Remedy Used:</label>
+      <input type="text" id="remedy" required>
+
+      <label>Symptoms (if any):</label>
+      <input type="text" id="symptoms">
+
+      <label>Diet Notes:</label>
+      <textarea id="diet"></textarea>
+
+      <label>Mood:</label>
+      <select id="mood">
+        <option value="Happy">😊 Happy</option>
+        <option value="Okay">😐 Okay</option>
+        <option value="Tired">😴 Tired</option>
+        <option value="Sick">🤒 Sick</option>
+      </select>
+
+      <button type="submit">Save Entry</button>
+    </form>
+
+    <h3>📖 Journal Entries</h3>
+    <div id="entries"></div>
+  </div>
+
+  <script src="journal.js"></script>
+</body>
+</html>

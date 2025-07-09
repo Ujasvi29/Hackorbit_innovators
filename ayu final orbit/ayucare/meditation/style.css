@@ -1,0 +1,6 @@
+#breath-circle {
+    transition: transform 3s ease-in-out;
+  }
+  .scale-125 {
+    transform: scale(1.25);
+  }
